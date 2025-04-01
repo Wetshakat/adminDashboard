@@ -1,13 +1,11 @@
-import Sidebar from "./components/layout/Sidebar"
-import Activity from "./components/main/Activity"
+import Home from "./pages/Home"
 import React from "react"
 function App() {
 
   return (
     <>
-     <div className="flex">
-      <Sidebar/>
-      <Activity/>
+     <div>
+    <Home/>
 
      </div>
     </>

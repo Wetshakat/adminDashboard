@@ -7,11 +7,11 @@ import { FaChargingStation } from "react-icons/fa6";
 const Cards = () => {
   return (
     <div className="p-3 grid grid-cols-4 gap-4 bg-gray-200">
-      {/* Card 1 */}
+      
       <div className="bg-[#08301cce] rounded-lg text-white p-4 h-[230px]">
         <div className="flex justify-between items-center mb-4">
           <div className="flex items-center gap-2">
-            <div className="bg-green-400 rounded-lg h-[40px] w-[40px] flex items-center justify-center">
+            <div className="bg-green-800 rounded-lg h-[40px] w-[40px] flex items-center justify-center">
               <FaChargingStation className="text-2xl text-white" />
             </div>
             <p className="text-lg">Overall Visitors</p>
@@ -20,7 +20,7 @@ const Cards = () => {
         </div>
         <div className="flex justify-center items-center gap-4">
           <h2 className="text-4xl font-bold">10,525</h2>
-          <div className="w-[60px] h-[35px] bg-[#0f5c35ce] rounded-full flex items-center justify-center text-white text-sm">
+          <div className="w-[60px] h-[35px] bg-[#20f189ce] rounded-full flex items-center justify-center text-white text-sm">
             15.2%
           </div>
         </div>
